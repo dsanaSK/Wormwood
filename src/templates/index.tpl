@@ -12,3 +12,10 @@ If you want the main landing page for your website to look different, this is th
    care!
 #}
 {% extends "comic.tpl" %}
+{%- block content %}
+    {# `super()` means that everything that's currently in the `head` block in base.tpl is added first, and then the
+       next line is added to the end. #}
+    {{- super() }}
+    <link rel="next" href="{{ base_dir }}/comic/{{ next_id }}/">
+	<h1> THIS IS HOME PAGE </h1>
+{%- endblock %}
