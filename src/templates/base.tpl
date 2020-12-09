@@ -28,6 +28,7 @@
     {%- block head %}
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="{{ base_dir }}/src/css/style.css">
+	    <link rel="stylesheet" type="text/css" href="{{ base_dir }}/src/css/fonts.css">
     <link rel="stylesheet" type="text/css" href="{{ base_dir }}/your_content/colors_and_layout/your_stylesheet.css">
     <link rel="icon" href="{{ base_dir }}/favicon.ico" type="image/x-icon" />
     <meta property="og:title" content="{{ comic_title }}" />
@@ -52,6 +53,19 @@
 			
         </a>
 			<h1> BANNER BITS </h1>
+			
+			 <ul class="social-links">
+            <li><span>&#9753;</span></li>
+            <li><a href="https://www.webtoons.com/en/challenge/tamberlane/list?title_no=372674" title="Read Tamberlane on Webtoon"><i class="icon-webtoon"><span style="color: #663403;" class="Label">&nbsp;Webtoons</span></i></a></li>
+            <li><a href="https://tapas.io/series/Tamberlane" title="Read Tamberlane on Tapas"><i class="icon-tapas"><span style="color: #663403;" class="Label">&nbsp;Tapas</span></i></a></li>
+            <li><a href="http://www.twitter.com/tamberlanecomic" title="Get Updates on Twitter"><i class="icon-twitter"><span style="color: #663403;" class="Label">&nbsp;Twitter</span></i></a></li>
+            <li><a href="http://www.twitch.tv/tamberlanecomic" title="Watch Comic Livestreams on Twitch"><i class="icon-twitch"><span style="color: #663403;" class="Label">&nbsp;Twitch</span></i></a></li>
+            <li><a href="http://www.youtube.com/c/pixelprism" title="Watch Speeddraws on YouTube"><i class="icon-youtube-play"><span style="color: #663403;" class="Label">&nbsp;YouTube</span></i></a></li>
+            <li><a href="https://discord.gg/WdHYWmD" title="Join the Foxglove Comics Discord!"><i class="icon-discord"></i></a></li>
+            <li><a type="application/rss+xml" href="/feed.xml"><i class="icon-rss" title="Subscribe on RSS"><span style="color: #663403;" class="Label">&nbsp;RSS</span></i></a></li>
+            <li><a href="/subscribe/" title="Subscribe via Email"><i class="icon-envelope"><span style="color: #663403;" class="Label">&nbsp;Subscribe</span></i></a></li>
+            <li><span>&#10087;</span></li>
+        </ul>
     </div>
     <div id="links-bar">
     {# For loops let you take a list of a values and do something for each of those values. In this case,
