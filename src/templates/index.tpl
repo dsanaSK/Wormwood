@@ -53,7 +53,7 @@ All my SFW stories are available for reading online for free or can be purchased
     {% endif %}
     </div>
 
-	{#
+	{# 
     <div id="blurb">
         <h1 id="page-title">{{ page_title }}</h1>
         <h3 id="post-date">Posted on: {{ post_date }}</h3>
