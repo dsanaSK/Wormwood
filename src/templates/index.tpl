@@ -24,12 +24,11 @@ I'm <b>dSana</b>, a self-taught comic book artist working on MLP:FIM fancomic si
 &nbsp; &nbsp;<br><br>
 All my SFW stories are available for reading online for free or can be purchased on Gumroad or Ko-fi.
   
-  <img src = "https://dsanask.github.io/comic_git/your_content/images/cover.jpg"
   </div>
   
    <div id="comic-page">
         <a href="{{ base_dir }}/comic/{{ first_id }}/#comic-page">
-            <img id="comic-image" src="{{ base_dir }}/{{ comic_path }}" title="{{ alt_text }}"/>
+            <img id="comic-image" src="https://dsanask.github.io/comic_git/your_content/images/cover.jpg" title="{{ alt_text }}"/>
         </a>
     </div>
 
