@@ -77,6 +77,7 @@ All my SFW stories are available for reading online for free or can be purchased
             {%- endfor %}
             </div>
         {%- endif %}
+		{#
         {%- if tags %}
             <div id="tags">
             Tags:
@@ -85,6 +86,7 @@ All my SFW stories are available for reading online for free or can be purchased
             {%- endfor %}
             </div>
         {%- endif %}
+		#}
         <hr id="post-body-break">
         <div id="post-body">
 {{ post_html }}
