@@ -9,6 +9,7 @@ div#container {
     text-align: center;
     margin: 15px;
     padding: 30px;
+    width: auto;
 }
 
 div img {
@@ -47,6 +48,7 @@ div#navigation-bar {
     margin: 0 auto 20px auto;
     font-weight: bold;
     justify-content: center;
+    width: auto;
 }
 
 a.navigation-button, a.navigation-button-disabled {
