@@ -18,7 +18,11 @@ If you want the main landing page for your website to look different, this is th
        next line is added to the end. #}
   {#  {{- super() }} #}
   
-  
+   <div id="comic-page">
+        <a href="{{ base_dir }}/comic/{{ first_id }}/#comic-page">
+            <img id="comic-image" src="{{ base_dir }}/{{ comic_path }}" title="{{ alt_text }}"/>
+        </a>
+    </div>
 
     {# If blocks let you check the value of a variable and then generate different HTML depending on that variable.
        The if block below will generate non-functioning links for `First` and `Previous` if the current page is the
