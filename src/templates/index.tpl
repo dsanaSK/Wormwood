@@ -18,6 +18,14 @@ If you want the main landing page for your website to look different, this is th
        next line is added to the end. #}
   {#  {{- super() }} #}
   
+  Hello!
+
+I'm <b>dSana</b>, a self-taught comic book artist working on MLP:FIM fancomic since 2016, after a chronic sickness forced me to quit my day job and focus on my true vocation - sequential art. I live with my husband in Edinburgh and enjoy slow travels, cooking& reading ^_^
+&nbsp; &nbsp;
+All my SFW stories are available for reading online for free or can be purchased on Gumroad or Ko-fi.
+  
+  <img src=src="{{ base_dir }}/images/cover.jpg"
+  
    <div id="comic-page">
         <a href="{{ base_dir }}/comic/{{ first_id }}/#comic-page">
             <img id="comic-image" src="{{ base_dir }}/{{ comic_path }}" title="{{ alt_text }}"/>
