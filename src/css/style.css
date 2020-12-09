@@ -208,3 +208,52 @@ div.accordion-panel {
 #language-select {
     width: 100%;
 }
+
+
+header ul.social-links {
+    grid-area: social;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    width: 100%;
+    /*align-content: flex-end;*/
+    margin-bottom: 2px;
+    z-index: 2;
+    padding-left: 0;
+}
+
+header ul.social-links li {
+    text-align: center;
+    margin: 0 3px 0 3px;
+    font-size: x-large;
+    width: 35px;
+    height: 40px;
+    color: #341a09;
+}
+
+header ul.social-links li a {
+    text-decoration: none;
+    width: auto;
+    height: 50px;
+    color: #f5debd;
+    text-shadow: 0 0 3px #F35E36;
+    font-size: xx-large;
+    transition: 0.2s ease;
+    box-sizing: border-box;
+}
+
+header .social-links li a:hover {
+    color: #fff;
+    text-shadow: 0 0 5px #F35E36, 0 0 10px #fffad3;
+    font-size: 1.5em;
+    transition: 0.2s ease;
+}
+
+header ul.social-links li:nth-child(1) a {
+    padding-right: 5px;
+}
+
+header ul.social-links li a span {
+    display: none;
+}
+
