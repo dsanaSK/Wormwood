@@ -52,6 +52,21 @@ a.navigation-button-disabled {
     text-decoration: none;  /* Delete this if you want your disabled navigation links to be underlined */
 }
 
+div#navigation-bar {
+    display: flex;
+    margin: 0 auto 20px auto;
+    font-weight: bold;
+    justify-content: center;
+    width: auto;
+    background-color: red;
+}
+
+div#banner {
+    margin-bottom: 15px;
+    background-color: grey;
+}
+
+
 div#blurb {
     background-color: lightgray;  /* The color of the "blurb" box that contains post title, post date, tags, etc. */
     width: 80%;  /* The maximum width of the blurb box. */
