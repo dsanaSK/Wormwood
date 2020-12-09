@@ -10,6 +10,7 @@ div#container {
     margin: 15px;
     padding: 30px;
     width: auto;
+	background-image: url('https://dsanask.github.io/comic_git/your_content/images/background_image.png');
 }
 
 div img {
@@ -41,7 +42,7 @@ span.link-bar-separator {
 
 div#comic-page {
     margin-bottom: 20px;
-	background-image: url('https://dsanask.github.io/comic_git/your_content/images/background_image.png');
+	
 }
 
 div#navigation-bar {
