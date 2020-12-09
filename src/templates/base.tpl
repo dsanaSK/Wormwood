@@ -48,9 +48,10 @@
         <a id="banner-img-link" href="{{ base_dir }}/">
             <img id="banner-img" alt="banner" src="{{ base_dir }}/your_content/images/banner.png">
 			
-			<h1> BANNER BITS </h1>
+
 			
         </a>
+			<h1> BANNER BITS </h1>
     </div>
     <div id="links-bar">
     {# For loops let you take a list of a values and do something for each of those values. In this case,
