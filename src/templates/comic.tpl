@@ -16,7 +16,7 @@
        For example, if the value passed in to `base_dir` is `comic_git`, then `{{ base_dir }}/comic` becomes
        `/comic_git/comic` #}
     <div id="comic-page">
-        <a href="{{ base_dir }}/comic/{{ first_id }}/#comic-page">
+        <a href="{{ base_dir }}/comic/{{ next_id }}/#comic-page">
             <img id="comic-image" src="{{ base_dir }}/{{ comic_path }}" title="{{ alt_text }}"/>
         </a>
     </div>
